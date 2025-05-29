@@ -23,6 +23,14 @@
         <div id="unity-build-title">My project</div>
       </div>
     </div>
+
+    <p style="position: absolute; bottom: 0;">
+
+    Click to uncover a hint:
+    <span id="hint" style="background: black; color: black; cursor: pointer; padding: 2px 6px; border-radius: 3px;" onclick="this.style.color='black'; this.style.background='transparent'; this.style.cursor='default'; this.onclick=null;">
+      Move some boxes and then commit suicide
+      </span>
+</p>
     <script>
       var canvas = document.querySelector("#unity-canvas");
 
